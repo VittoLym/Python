@@ -64,3 +64,5 @@ opi = driver.find_element(By.ID, 'operador_comp')
 print(f'{opi.text}&&{number_opi.text}')
 
 time.sleep(5)
+
+driver.quit()
